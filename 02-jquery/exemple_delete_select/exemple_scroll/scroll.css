@@ -1,0 +1,26 @@
+header{
+	height: 100px;
+	background: yellow;
+}
+
+main{
+	min-height: 500px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+main .item{
+	height: 120px;
+	background: red;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+#content #loader{
+	height: 40px; 
+	width: 40px; 
+	background-size: 40px 40px;
+	background-image: url("ajax-loader.gif");
+	margin: 0 auto;
+	display:none;
+}

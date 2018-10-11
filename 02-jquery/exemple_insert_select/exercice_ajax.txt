@@ -1,0 +1,25 @@
+
+
+Exercice : Faire un fichier index.php, où l'on peut insérer un nouvel employé et voir en direct (sans rechargement) la liste se mettre à à jour
+
+exemple_insert_select/
+	index.php
+		-> jquery
+		-> ajax.js
+		
+		formulaire
+		Grâce à PHP : un tableau avec tous les employé
+		
+	ajax.js 
+		-> chargement de la page
+		-> Click sur le submit
+		-> insertEmploye()
+			-> Récupère la value du champs prenom
+			-> $.post() on envoie les param à ajax.php
+			
+	ajax.php
+		-> insert le nouvel employé
+		-> Vous récupérer tous les employés
+		-> Retourner (json) tous les employés
+			
+	connexion.php : Connexion à la BDD
